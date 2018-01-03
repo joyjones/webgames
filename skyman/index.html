@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>天空战记</title>
+
+  <link rel="stylesheet" href="css/main.css?_dc=7">
+</head>
+<body>
+  <section class="loading">
+    <div class="progress"></div>
+  </section>
+  <section class="game">
+    <canvas id="gameView"></canvas>
+    <div class="rewardTip"></div>
+    <div class="gameOver">
+      <div class="dialog">
+        <div class="caption">你挂了</div>
+        <div class="retry">再来一次</div>
+      </div>
+    </div>
+  </section>
+<!--   <audio id="a-bullets" preload>
+    <source src="snd/bullet.mp3" type="audio/mp3">
+    <source src="snd/bullet.ogg" type="audio/ogg">
+  </audio>
+  <audio id="a-bomb" preload>
+    <source src="snd/bomb.mp3" type="audio/mp3">
+    <source src="snd/bomb.ogg" type="audio/ogg">
+  </audio>
+  <audio id="a-explode" preload>
+    <source src="snd/explode.mp3" type="audio/mp3">
+    <source src="snd/explode.ogg" type="audio/ogg">
+  </audio> -->
+  <audio id="a-bg" preload loop>
+    <source src="snd/bg.mp3" type="audio/mp3">
+    <source src="snd/bg.ogg" type="audio/ogg">
+  </audio>
+</body>
+<script src="lib/jquery-2.1.0.min.js"></script>
+<script src="lib/vmouse.js"></script>
+<script src="js/main.js?_dc=22"></script>
+</html>
