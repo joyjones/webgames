@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>猜书达人</title>
+<meta name="apple-mobile-web-app-title" content="猜书达人">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<script type="text/javascript" src="../lib/js/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="assets/css/main.css?v=acb">
+<script type="text/javascript" src="../lib/js/defines.js"></script>
+<script type="text/javascript" src="../lib/js/depend.js"></script>
+<script type="text/javascript" src="assets/js/main.js?v=ssds"></script>
+</head>
+<body>
+	<section id="sec_welcome">
+		<h1><span id="caption">猜书达人 - 文字的力量</span></h1>
+		<h2 id="titletext"></h2>
+		<h2 id="titletip"></h2>
+		<button id="start">加载中…</button>
+		<div>
+			<div class="more"><button>更多游戏</button></div>
+			<div class="focus"><button>关注星云</button></div>
+		</div>
+	</section>
+	<section id="sec_game">
+		<div>
+		    <div id="counter">第1/25题</div>
+		</div>
+    	<div id="q"></div>
+		<div id="board">
+	    	<div class="answer" id="a1">A</div>
+	    	<div class="answer" id="a2">B</div>
+	    	<div class="answer" id="a3">C</div>
+	    	<div class="answer" id="a4">D</div>
+		</div>
+		<div id="result">
+			<div id="resultimg"><img src="assets/images/s1.png"></div>
+			<div><h4 id="resulttxt">正确！</h4></div>
+		</div>
+	</section>
+	<section id="sec_finish">
+    	<div id="score"></div>
+    	<div id="endwords"></div>
+	    <div style="width:100%;text-align:center;">
+			<button id="share">推荐给朋友</button>
+		    <button id="retry">再看一遍</button>
+		</div>
+		<div>
+			<div class="more"><button>更多游戏</button></div>
+			<div class="focus"><button>关注星云</button></div>
+		</div>
+	</section>
+	<div id="sharetip"></div>
+</body>
+</html>

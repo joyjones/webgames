@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>害虫来了</title>
+<meta name="apple-mobile-web-app-title" content="害虫来了">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<script type="text/javascript" src="../lib/js/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="assets/css/blockquote.css">
+<link rel="stylesheet" type="text/css" href="assets/css/main.css?v=1">
+<script type="text/javascript" src="../lib/js/defines.js?ver=1.00"></script>
+<script type="text/javascript" src="../lib/js/depend.js?ver=1.00"></script>
+<script type="text/javascript" src="../lib/js/maths.js?ver=1.00"></script>
+<script type="text/javascript" src="assets/js/main.js?ver=1.03"></script>
+</head>
+<body>
+	<div id="titlebar">
+		<image id="titleimg" src="assets/images/title.png" height="50"></image><br/>
+		<h3>已消灭
+			<span id="killcount">0</span>
+			个害虫
+		</h3>
+		<h3>力量：
+			<span id="strength">□□□□□□□□□□</span>
+		</h3>
+	</div>
+	<canvas id="canvas">
+	    <p>你的浏览器不支持本游戏!</p>
+	</canvas>
+	<image id="farm_destroyed" src="assets/images/back_destroyed.jpg"></image>
+    <div id="frog"></div>
+    <div id="gamemask"></div>
+	<div id="welcomedialog" style="z-index:902;left:0px;top:0px;">
+		<blockquote class="example-right" style="z-index:901;">
+			<image id="titleimg" src="assets/images/title.png"></image><br/>
+	    	<br/>
+	    	<span id="welcometext" class="titletext black">一大波害虫来袭！主人的庄稼很危险！赶快来吃掉尽可能多的害虫吧！</span>
+	    	<br/>
+	    	<p><span class="titletext yellow">手指</span><span class="titletext red">在害虫附近按下并按住</span><span class="titletext yellow">，憋足了劲后在适当时刻松开！</span></p>
+	    	<p>　</p>
+		    <button id="start"></button>
+		</blockquote>
+	</div>
+	<blockquote id="resultdialog" class="oval-thought-border" style="margin:4px;z-index:901;display:none;">
+    	<span id="resulttext" class="titletext"></span>
+    	<p>　</p>
+	    <button id="replay"></button>
+		<button id="share"></button><br/>
+		<button id="focus"></button>
+	</blockquote>
+	<div id="sharetip"></div>
+
+<!-- 	<audio id="snd_music" src="assets/sounds/bmusic1a.mp3" type="audio/mpeg">
+	</audio>
+	<audio id="snd_frog" type="audio/wav">
+	</audio> -->
+</body>
+</html>

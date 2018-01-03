@@ -1,0 +1,110 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: '微软雅黑';
+}
+
+div{
+    overflow: hidden;
+}
+
+#bg{
+	position: absolute;
+	left: 0;
+	top: 0;
+    background-image: url(../images/back.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #2C9ECB;
+    z-index: -1;
+}
+
+#title{
+	background-color: rgba(255, 230, 131, 0.75);
+	margin: 8px;
+	margin-bottom: 1px;
+	padding: 4px;
+	font-size: 1.2em;
+	font-weight: bold;
+	float: none;
+	text-align: center;
+	color: #444;
+	border: 1px solid;
+	border-radius: 2px;
+}
+
+#status{
+	background-color: rgba(255, 255, 236, 0.75);
+	margin-left: 8px;
+	margin-right: 8px;
+	float: none;
+	font-size: 1em;
+	font-weight: bold;
+	color: #444;
+	text-align: center;
+	border: none;
+	border-radius: 2px;
+}
+
+#board{
+	position: relative;
+	margin: 8px;
+	overflow: visible;
+	background-color: rgba(219, 234, 255, 0.75);
+}
+
+.block{
+	position: absolute;
+	border: 1px solid rgba(128,128,128,0.8);
+	z-index: 10;
+}
+
+#finishtip{
+	position: absolute;
+	width: 99%;
+	top: 40%;
+	height: 80px;
+	background-color: rgba(164,255,157,0.9);
+	text-align: center;
+	font-weight: bold;
+	font-size: 1em;
+	color: #2B7A4B;
+	border: 1px #3A9683 solid;
+	border-radius: 10px;
+	display: none;
+	z-index: 100;
+}
+
+.bottombar{
+}
+.bottomtip{
+	font-weight: bold;
+	font-size: 0.75em;
+	text-align: center;
+	color: darkviolet;
+}
+
+.btn{
+	font-size: 1.1em;
+	font-weight: bold;
+	padding: 4px 4px;
+	border: 2px solid;
+	border-radius: 0.5em;
+	text-align: center;
+	color: #fff;
+	background-color: rgba(122,0,0,0.75);
+	float: left;
+	width: 29.5%;
+	z-index: 20;
+}
+
+#sharetip{
+	background-image: url('../images/sharetip.png');
+	background-size: 100%;
+	margin: 0;
+	padding: 0;
+	display:none;
+	z-index: 910;
+}

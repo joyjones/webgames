@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>睡前行动</title>
+<meta name="apple-mobile-web-app-title" content="睡前行动">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<script type="text/javascript" src="../sdk/zepto/zepto.min.js"></script>
+<script type="text/javascript" src="../sdk/zepto/zepto.touch.js"></script>
+<script type="text/javascript" src="../sdk/zepto/zepto.detect.js"></script>
+<link rel="stylesheet" type="text/css" href="assets/css/main.css?ver=1.03">
+<script type="text/javascript" src="../lib/js/defines.js?ver=1.00"></script>
+<script type="text/javascript" src="../lib/js/depend.js?ver=1.00"></script>
+<script type="text/javascript" src="../lib/js/maths.js?_dc=d8ef240c"></script>
+<script type="text/javascript" src="assets/js/main.js?_dc=47846cbd"></script>
+</head>
+<body ondragstart='return false' onselectstart ='return false' onselect='document.selection.empty()' oncopy='document.selection.empty()' onbeforecopy='return false'>
+	<div id="bg"></div>
+	<section id="sec_welcome">
+		<h1><span id="z1">睡</span><span id="z2">前</span><span id="z3">行</span><span id="z4">动</span></h1>
+		<h2 id="titletext"></h2>
+		<button id="start">开始游戏</button>
+		<h2 id="titletip"></h2>
+		<div class="focus"><button>关注星云</button></div>
+	</section>
+	<section id="sec_game">
+		<div>
+		    <div id="timer">剩余：60</div>
+		    <div id="score">得分：0</div>
+		</div>
+		<div id="debug" style="color:#844;font-size:1em">小提示：按住还不够，还得碾一碾哦</div>
+		<canvas id="room"></canvas>
+	</section>
+	<section id="sec_finish">
+    	<div id="results"></div>
+	    <div style="width:100%;text-align:center;">
+		    <button id="retry">再试一次</button>
+			<button id="share">炫耀一下</button>
+		</div>
+		<div class="focus"><button>关注星云</button></div>
+	</section>
+	<div id="sharetip"></div>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>10分完美</title>
+<meta name="apple-mobile-web-app-title" content="十分完美">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<script type="text/javascript" src="../lib/js/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="assets/css/main.css?ver=1.03">
+<script type="text/javascript" src="../lib/js/defines.js?ver=1.00"></script>
+<script type="text/javascript" src="../lib/js/depend.js?ver=1.00"></script>
+<script type="text/javascript" src="assets/js/main.js?ver=1.25"></script>
+</head>
+<body ondragstart='return false' onselectstart ='return false' onselect='document.selection.empty()' oncopy='document.selection.empty()' onbeforecopy='return false'>
+	<div id="bg"></div>
+	<section id="sec_welcome">
+		<h1><span id="z1">10</span><span id="z2">分</span><span id="z3">完</span><span id="z4">美</span></h1>
+		<h2 id="titletext"></h2>
+		<button id="start">开始游戏</button>
+		<h2 id="titletip"></h2>
+		<div class="focus"><button>关注星云</button></div>
+	</section>
+	<section id="sec_game">
+		<div>
+		    <div id="timer">剩余：60</div>
+		    <div id="score">得分：00</div>
+		</div>
+    	<div id="status">请选择数字！</div>
+		<div id="board"></div>
+		<div style="width:100%;text-align:right;"><button id="refresh">换一批</button></div>
+	</section>
+	<section id="sec_finish">
+    	<div id="results"></div>
+	    <div style="width:100%;text-align:center;">
+		    <button id="retry">再试一次</button>
+			<button id="share">炫耀一下</button>
+		</div>
+		<div class="focus"><button>关注星云</button></div>
+	</section>
+	<div id="sharetip"></div>
+
+	<audio id="snd_up">
+	  <source src="assets/media/up.mp3" type="audio/mpeg" preload="auto">
+	Your browser does not support the audio tag.
+	</audio>
+</body>
+</html>

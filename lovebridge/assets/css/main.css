@@ -1,0 +1,206 @@
+div{
+	position: absolute;
+    overflow: hidden;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+button{
+	font-size: 32px;
+	padding: 16px;
+	border: none;
+	position: absolute;
+	background-color: transparent;
+}
+
+#backimage{
+	position: absolute;
+	z-index: 0;
+}
+
+#titlebar{
+	z-index: 10;
+}
+
+#boy{
+	background-image: url('../images/boy.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+	z-index: 1;
+}
+#girl{
+	background-image: url('../images/girl.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+	z-index: 1;
+}
+
+#push1{
+	background-image: url('../images/push1.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+}
+
+#push2{
+	background-image: url('../images/push1.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+}
+
+#timer{
+	font-size: 48px;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	text-shadow: 2px 3px 2px #000;
+}
+
+#gamemask{
+	left: 0px;
+	top: 0px;
+	background-color: #000;
+	z-index: 900;
+	opacity: 0.75;
+	display: none;
+}
+
+#sharetip{
+	right:0px;
+	top:8px;
+	margin:20px;
+	padding:20px 50px;
+	display:none;
+	z-index: 910;
+}
+
+#winview{
+	position: absolute;
+	z-index: 10;
+	display: none;
+}
+
+.titletext{
+	font-size: 32px;
+	font-weight: bold;
+	font-family: 微软雅黑;
+}
+
+.titletext.black{
+	color: #222;
+}
+.titletext.yellow{
+	color: #ff0;
+}
+.titletext.red{
+	color: #f00;
+}
+
+#retry{
+	position: absolute;
+	background-image: url('../images/retry.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#share{
+	background-image: url('../images/share.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#focus{
+	background-image: url('../images/focus.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#start{
+	background-image: url('../images/start.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	z-index: 100;
+}
+
+#results{
+	font-family: '微软雅黑';
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 0px 0px 6px #000;
+	margin: 10px 20px;
+}
+
+#help{
+	font-family: '微软雅黑';
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 0px 0px 10px #ff8;
+	color: #0f0;
+	font-size: 16px;
+	margin: 0 20px;
+}
+
+#sharetip{
+	background-image: url('../images/sharetip.png');
+	background-size: 100%;
+	display: none;
+	margin: 0;
+	padding: 0;
+}
+
+.result_secs{
+	font-size: 42px;
+	color: #f00;
+}
+
+.helpred{
+	color: #f00;
+}
+
+.nouse{
+	display: none;
+}
+
+.titlewelcome{
+	font-size: 18px;
+	color: #ff0;
+}
+
+.titlegame{
+	font-size: 26px;
+	color: #fff;
+}
+
+#door1{
+	background-image: url('../images/door1.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#door2{
+	background-image: url('../images/door2.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+/*
+.anim_start {
+	-webkit-animation-name: start;
+	-webkit-animation-timing-function:linear;
+	-webkit-animation-delay:0s;
+	-webkit-animation-iteration-count:1;
+	-webkit-animation-direction:alternate;
+	-webkit-animation-play-state:running;
+	-webkit-animation-fill-mode:forwards;
+	-webkit-animation-duration:1s;
+}
+@-webkit-keyframes start {
+	from {width: 80px; height: 80px; left: 500px; top: 0px;}
+	to   {width: 500px; height: 500px;}
+}*/
